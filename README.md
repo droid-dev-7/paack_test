@@ -1,19 +1,23 @@
 # paack_test
 CLI to know the weather of the cities of Barcelona using the 'eltiempo.com' api
 
-## Instrucciones
-Clona el repositorio del proyecto:
+## Instructions
+Clone the project's repository:
 ```bash
 $ cd paack_test
 ```
-Instala desde Pipfile, si hay uno:
+Install dependencies from Pipfile:
 ```bash
 $ pipenv install
+```
+Move to app folder
+```bash
+$ cd app
 ```
 The differents commands can inform about the average of the minimum and maximum
 temperature during the week, and the temperature of the day.
 ```bash
-eltiempo.py -today 'Gavá'
-eltiempo.py -av_max 'Gavá'
-eltiempo.py -av_min 'Gavá'
+eltiempo.py -today 'Gavà'
+eltiempo.py -av_max 'Gavà'
+eltiempo.py -av_min 'Gavà'
 ```          
