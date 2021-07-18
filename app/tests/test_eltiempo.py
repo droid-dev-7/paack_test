@@ -1,6 +1,6 @@
 import pytest
 import sys, os
-sys.path.append(os.path.abspath(".."))
+sys.path.append(os.path.abspath("../.."))
 from app.eltiempo import ElTiempo
 
 city = "Gavà"
